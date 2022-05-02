@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "this is an api rest proyect written on typescript",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node ./dist/index.js",
     "dev": "ts-node-dev --files src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall":"npm run build",
     "lint": "eslint \"./src/**/*.js\"",
     "lint:fix": "eslint \"./src/**/*.js\" --fix"
   },
