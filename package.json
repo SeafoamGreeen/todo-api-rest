@@ -1,0 +1,36 @@
+{
+  "name": "ts-proyect-please-compile-god-im-praying",
+  "version": "1.0.0",
+  "description": "this is an api rest proyect written on typescript",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "ts-node-dev --files src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"./src/**/*.js\"",
+    "lint:fix": "eslint \"./src/**/*.js\" --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.13.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "joi": "^17.6.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^17.0.29",
+    "eslint": "^8.11.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "prisma": "^3.13.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
+}
